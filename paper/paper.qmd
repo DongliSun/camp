@@ -1,0 +1,23 @@
+---
+title: "Ethnic origins and number of Holocaust victims killed at Auschwitz concentration camp"
+subtitle: ""
+author: 
+  - Dongli Sun
+thanks: "Code and data are available at: https://github.com/DongliSun/camp.git.Link to the shiny app at: https://5j194r-dongli-sun.shinyapps.io/Camp/."
+date: today
+date-format: long
+abstract: ""
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+I used @citeR as the main way to analyze the data, and according to the description of [@bouie2022], I learned that entire slaves were captured from the African coast and transported as goods to the New World. The article mentioned the SlaveVoyages database, which is a public record of slave ships, voyages and individual slaves, and as a data, I can see that the oyster data continues to grow every year. This database contains not only data on the transatlantic slave trade, but also information on the domestic slave trade in the United States. This is actually very important for the history and the ethics of the slave trade, because understanding the history of slavery can help researchers and people understand the factors that existed for class, for society at that time, for inequality, and then avoid this problem.
+
+
+I developed our web application using the `shiny` package [@shiny] to show the data of Auschwitz Holocaust victims, I divide Auschwitz Holocaust victims into different races to count. The data in the SlaveVoyages database serve as a reference or supplement to provide a broader historical context of slavery. I will classify people into different groups, such as different countries, different genders and different ages, record and count their numbers, and then select a certain group for calculation and analysis. Using @ggplot2 can better display and analysis data. Finally, I integrated all the groups and put them together so that I could better understand the trend. I think the literature and the Holocaust victims of Auschwitz help users to understand the history and impact of slavery more fully.
+
+\newpage
+
+#references
+
+
